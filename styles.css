@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.deck {
+  border: 1px solid black;
+  width: 250px;
+  display: inline-block;
+  margin-inline: 10px;
+}
+.deck h4 {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.seat {
+  width: 40px;
+  height: 70px;
+  margin: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(60, 205, 16);
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+}
+.ladies {
+  border: 2px solid pink;
+}
+.seat1 {
+  display: inline-block;
+  width: 50px;
+}
+
+/* .upper .seat:hover::before,
+.lower .seat:hover::before {
+  content: attr(data-price) "$";
+  position: absolute;
+  top: -30px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+.upper .seat:hover::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lower .seat:hover::before {
+  left: 0;
+} */
+.seat.selected {
+  background-color: green;
+  color: white;
+}
+.totalprice {
+  height: 78px;
+  width: 500px;
+  margin-top: 20px;
+  box-shadow: inset 5px 0 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.totalprice button {
+  width: 50%;
+  border-radius: 0;
+  flex: 1;
+  margin: 5px;
+}
+
+.totalprice p {
+  padding-left: 30px;
+}
+.seatTypes {
+  border: 1px solid black;
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.seatTypes h6 {
+  border-bottom: 1px solid black;
+}
+.typename {
+  margin-left: 60px;
+  white-space: nowrap;
+}
+.seat2 {
+  height: 40px;
+  width: 20px;
+  border: 2px solid rgb(55, 232, 55);
+  margin-bottom: 5px;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+.ladies2 {
+  border: 2px solid pink;
+}
+.booked2 {
+  background-color: rgb(74, 240, 74);
+}
+.bookothers {
+  background-color: rgb(196, 192, 192);
+  border: 2px solid rgb(196, 192, 192);
+}
+.ladiesbook {
+  border: 2px solid pink;
+  background-color: rgb(196, 192, 192);
+}
